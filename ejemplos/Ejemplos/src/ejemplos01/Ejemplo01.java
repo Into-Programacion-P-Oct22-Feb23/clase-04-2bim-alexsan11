@@ -1,4 +1,4 @@
-/*
+                                                      /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -17,19 +17,25 @@ public class Ejemplo01 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        
-        String miCiudad = obtenerCiudadMayuscula("Loja");
-        System.out.printf("%s\n", miCiudad);
+        String cadena01 = "loja";
+        //String miCiudad = obtenerCiudadMayuscula("Loja");
+        String miCiudad = obtenerCiudadMayuscula(cadena01);
+        System.out.printf("%s\n", cadena01);
+        //1 
+        String mensajeR = obtenerNombre();
+        System.out.printf("%s\n", mensajeR);
+        //2 
+         System.out.printf("%s\n", obtenerNombre());
     }
     
     
-    public String obtenerCiudadMayuscula(String m){
+    public static String obtenerCiudadMayuscula(String m){
         String m2 = m.toUpperCase();
         return m2;
     }
     
     public static void obtenerMultiplicacion(int tabla, int limite){
-        
+         
     }
     
     public static String obtenerNombre(){

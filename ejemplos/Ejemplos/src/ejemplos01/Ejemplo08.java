@@ -15,7 +15,7 @@ public class Ejemplo08 {
         // 
         String mensajeSuma;
         String mensajeSumaDos;
-        mensajeSuma = obtenerTablaSumar(10, 9); // se invoca al método 
+        mensajeSuma = obtenerTablaSumar(10, 9);// se invoca al método 
                                                        // obtenerTablaSumar
                                                        // y el valor que 
                                                        // devuelve se lo 
