@@ -37,7 +37,7 @@ public class Ejemplo081 {
                 mensajeSumaDos = obtenerTablaMultiplicar(10, 9);
                 System.out.printf("%s\n", mensajeSumaDos);
             } else {
-                System.out.println("error");
+                System.out.println("error...la maquina esplotara en 1min");
             }
         }
     }
